@@ -1,0 +1,55 @@
+/* Add your css styles here */
+* {
+    box-sizing: border-box;
+}
+
+.btn-trigger {
+    width: 150px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.modal-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100000;
+    text-align: center;
+}
+
+.modal-dialog {
+    background: white;
+    display: inline-block;
+    top: 15%;
+    padding: 5px;
+}
+
+.modal-ctrls {
+    margin-top: 10px;
+}
+
+.modal-ctrls .btn {
+    padding: 5px;
+    min-width: 50px;
+    min-height: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+.modal-yes {
+    float: left;
+}
+.modal-no {
+    float: right;
+}
+
+input[type="textbox"] {
+    width: 300px;
+    height: 25px;
+}

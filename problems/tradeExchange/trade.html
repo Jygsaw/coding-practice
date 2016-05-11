@@ -1,0 +1,50 @@
+<!-- Enter your HTML code here -->
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>Financial Exchange</title>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.2/underscore.js"></script>
+
+   <script src="trade.js"></script>
+   <link href="trade.css" rel="stylesheet">
+</head>
+<body>
+    <h3>Exchange Data</h3>
+    <table id="trades_display">
+        <thead>
+            <tr>
+                <th>Ticker</th>
+                <th>Trade Volume</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <h3>Insert Data</h3>
+    <table id="trades_edit">
+        <tr>
+            <td>Ticker</td>
+            <td><input id="trades_insert_ticker" type="text"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><div id="trades_insert_ticker_error">Please enter a ticker symbol</div></td>
+        </tr>
+        <tr>
+            <td>Volume</td>
+            <td><input id="trades_insert_volume" type="text"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><div id="trades_insert_volume_error">Please enter a positive integer</div></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><div id="trades_insert_submit" class="btn-submit">Submit</div></td>
+        </tr>
+    </table>
+</body>
+</html>

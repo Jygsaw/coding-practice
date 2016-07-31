@@ -1,5 +1,5 @@
 console.log("===== Testing: binarySearchTree =====");
-var binarySearchTreeFactory = require('./binarySearchTree.js');
+var binarySearchTreeFactory = require('./binary-search-tree.js');
 
 console.log(">>> initializing");
 var tree = binarySearchTreeFactory();

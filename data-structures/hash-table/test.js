@@ -1,5 +1,5 @@
 console.log("===== Testing: hashTable =====");
-var hashTableFactory = require('./hashTable.js');
+var hashTableFactory = require('./hash-table.js');
 
 console.log(">>> initializing");
 var hash = hashTableFactory();

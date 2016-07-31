@@ -1,5 +1,5 @@
 console.log("===== Testing: minHeap =====");
-var minHeapFactory = require('./minHeap.js');
+var minHeapFactory = require('./min-heap.js');
 
 console.log(">>> initializing");
 var heap = minHeapFactory();

@@ -1,5 +1,5 @@
 console.log("===== Testing: linkedList =====");
-var linkedListFactory = require('./linkedList.js');
+var linkedListFactory = require('./linked-list.js');
 
 console.log(">>> initializing");
 var list = linkedListFactory();

@@ -1,7 +1,7 @@
 var sortTester = function (type, size) {
   console.log("===== Testing:", type, "=====");
   var sortFunc = require('./' + type + '/' + type + '.js');
-  var numUtils = require('../utils/genNumbers.js');
+  var numUtils = require('../utils/gen-numbers.js');
 
   // generate random numbers
   console.log(">>> generating numbers <<<");
